@@ -1,0 +1,6 @@
+services:
+  api:
+    build: .
+    container_name: softsec-api
+    ports:
+      - "5000:5000"
